@@ -1,0 +1,163 @@
+
+
+.b {
+    background-color: #4CAF50; /* Green */
+    width:200px;
+    height:200px;
+    color:yellow;
+    border-color: greenyellow;
+    border-width:thick;
+    border-style:solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-top-right-radius: 60px;
+    box-shadow: 10px 10px 5px #888888;
+    }
+
+.b2:hover {
+    font-family: "Estrangelo Edessa";
+    font-size:200%;
+    text-shadow: 5px 5px 5px greenyellow;
+    border-radius: 120px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+
+* {list-style: none}
+
+#facebook {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 96px;
+    background-image:url('facebook.png');
+    filter: grayscale(100%) blur(1px);
+    -webkit-filter: grayscale(100%) blur(1px) brightness(50%); /* Chrome, Safari, Opera */
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+
+
+}
+
+#facebook:hover {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 0;
+    background-image: url('facebook.png');
+    filter: initial;
+    -webkit-filter: initial;
+    -webkit-transform: scale(.8);
+
+
+
+
+}
+
+
+
+#google_plus {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('google_plus.png');
+    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg); /* Chrome, Safari, Opera */
+    border-radius: 96px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+
+#google_plus:hover {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('google_plus.png');
+    filter: initial;
+    -webkit-filter: initial;
+    border-radius: 0;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#instagram {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('instagram.png');
+    filter: invert(100%);
+    -webkit-filter: invert(100%); /* Chrome, Safari, Opera */
+    border-radius: 96px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+
+#instagram:hover {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('instagram.png');
+    filter: initial;
+    -webkit-filter: initial;
+    border-radius: 96px;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#rss {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('rss.png');
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    border-radius: 96px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+
+#rss:hover {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('rss.png');
+    filter: initial;
+    -webkit-filter: initial;
+    border-radius: 96px;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+#twitter {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('twitter.png');
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    border-radius: 96px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+
+#twitter:hover {
+    display:inline-block;
+    width: 128px;
+    height: 128px;
+    background-image:url('twitter.png');
+    filter: initial;
+    -webkit-filter: initial;
+    border-radius: 96px;
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-720deg);
+}
